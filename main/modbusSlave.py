@@ -9,7 +9,7 @@ import ulogging as  logging
 
 class ModbusSlave:
     
-    def __init__(self,baudrate,wattmeter, evse, rfid, config, debug=True):
+    def __init__(self,baudrate,wattmeter, evse, rfid, config, debug=False):
         self.DE = Pin(15, Pin.OUT) 
         self.uart =  UART(2,baudrate)
         self.uart.init(baudrate, bits=8, parity=None, stop=1) # init with given parameters
@@ -36,7 +36,7 @@ class ModbusSlave:
             if self.uart.any():
                 res = self.uart.read()
             else:
-                await asyncio.sleep(0.05)
+                await asyncio.sleep_ms(10)
             try:
                 if(len(res)<8):
                     continue
