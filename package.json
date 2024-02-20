@@ -5,7 +5,7 @@
     ["history.mpy", "github:smartmodul/production/main/history.mpy"],
     ["modbus_slave.mpy", "github:smartmodul/production/main/modbus_slave.mpy"],
     ["task_handler.mpy", "github:smartmodul/production/main/task_handler.mpy"],
-    ["wattmeter.mpy", "github:lsmartmodul/production/main/wattmeter.mpy"],
+    ["wattmeter.mpy", "github:smartmodul/production/main/wattmeter.mpy"],
     ["web_server_app.mpy", "github:smartmodul/production/main/web_server_app.mpy"],
     ["uart1.mpy", "github:smartmodul/production/main/uart1.mpy"],
     ["rfid.mpy", "github:smartmodul/production/main/rfid.mpy"],
