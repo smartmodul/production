@@ -1,0 +1,27 @@
+{
+  "urls": [
+    ["__config__.mpy", "github:smartmodul/produciton/main/__config__.mpy"],
+    ["evse.mpy", "github:smartmodul/produciton/main/evse.mpy"],
+    ["history.mpy", "github:smartmodul/produciton/main/history.mpy"],
+    ["modbus_slave.mpy", "github:smartmodul/produciton/main/modbus_slave.mpy"],
+    ["taskHandler.mpy", "github:smartmodul/produciton/main/taskHandler.mpy"],
+    ["wattmeter.mpy", "github:lsmartmodul/produciton/main/wattmeter.mpy"],
+    ["webServerApp.mpy", "github:smartmodul/produciton/main/webServerApp.mpy"],
+    ["uart1.mpy", "github:smartmodul/produciton/main/uart1.mpy"],
+    ["rfid.mpy", "github:smartmodul/produciton/main/rfid.mpy"],
+    ["template/main_html.mpy", "github:smartmodul/produciton/main/template/main_html.mpy"],
+    ["template/datatable_html.mpy", "github:smartmodul/produciton/main/template/datatable_html.mpy"],
+    ["template/energyChart_html.mpy", "github:smartmodul/produciton/main/template/energyChart_html.mpy"],
+    ["template/overview_html.mpy", "github:smartmodul/produciton/main/template/overview_html.mpy"],
+    ["template/history_html.mpy", "github:smartmodul/produciton/main/template/history_html.mpy"],
+    ["template/rfid_html.mpy", "github:smartmodul/produciton/main/template/rfid_html.mpy"],
+    ["template/settings_html.mpy", "github:smartmodul/produciton/main/template/settings_html.mpy"],
+    ["inverters/base.mpy", "github:smartmodul/produciton/main/inverters/base.mpy"],
+    ["inverters/goodwe.mpy", "github:smartmodul/produciton/main/inverters/goodwe.mpy"],
+    ["inverters/huawei.mpy", "github:smartmodul/produciton/main/inverters/huawei.mpy"],
+    ["inverters/infigy.mpy", "github:smartmodul/produciton/main/inverters/infigy.mpy"],
+    ["inverters/solax.mpy", "github:smartmodul/produciton/main/inverters/solax.mpy"],
+    ["inverters/victron.mpy", "github:smartmodul/produciton/main/inverters/victron.mpy"],
+    ["inverters/rs485_tcp.mpy", "github:smartmodul/produciton/main/inverters/rs485_tcp.mpy"]
+  ]
+}
