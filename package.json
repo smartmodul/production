@@ -24,6 +24,7 @@
     ["inverters/solax.mpy", "github:smartmodul/production/main/inverters/solax.mpy"],
     ["inverters/victron.mpy", "github:smartmodul/production/main/inverters/victron.mpy"],
     ["inverters/rs485_tcp.mpy", "github:smartmodul/production/main/inverters/rs485_tcp.mpy"],
-    ["inverters/solinteg.mpy", "github:smartmodul/production/main/inverters/solinteg.mpy"]
+    ["inverters/solinteg.mpy", "github:smartmodul/production/main/inverters/solinteg.mpy"],
+    ["inverters/wattsonic.mpy", "github:smartmodul/production/main/inverters/wattsonic.mpy"]
   ]
 }
